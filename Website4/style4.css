@@ -6,16 +6,8 @@
     padding-top: 70px;
     padding-left: 30px;
     padding-right: 30px;
-    
     margin: auto;
-    width: 1000px;
-    
-    background-color: white;
-    
-}
-
-body{
-    background-color: white;
+    background-color: white; 
 }
 
 .content-main
@@ -38,6 +30,6 @@ body{
 }
 
 .sideLinks{
-    width: 300px;
     grid-area: aside;
+    width: 300px;
 }
