@@ -14,9 +14,8 @@
     
 }
 
-.box3
-{
-    width: 300px;
+body{
+    background-color: white;
 }
 
 .content-main
@@ -39,5 +38,6 @@
 }
 
 .sideLinks{
+    width: 300px;
     grid-area: aside;
 }
