@@ -1,0 +1,35 @@
+.wrapper
+{
+    display: grid;
+    grid-template-columns: (2,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "logo slogan"
+                         "aside main";
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    margin: auto;
+    width: 1000px;
+    
+}
+
+.body
+{
+    color: #B0A087;
+}
+
+.box3
+{
+    width: 300px;
+}
+
+.box4
+{
+    padding-left: 50px;
+}
+
+.sideTitle
+{
+    font-size: 20px;
+}
