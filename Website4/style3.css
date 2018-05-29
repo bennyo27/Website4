@@ -1,8 +1,6 @@
 .wrapper
 {
     display: grid;
-    grid-template-columns: (2,1fr);
-    grid-template-rows: auto;
     grid-template-areas: "logo slogan"
                          "aside main";
     padding-top: 70px;
@@ -12,11 +10,13 @@
     margin: auto;
     width: 1000px;
     
+    background-color: white;
+    
 }
 
 .body
 {
-    color: #B0A087;
+    color: tan;
 }
 
 .box3
@@ -24,12 +24,25 @@
     width: 300px;
 }
 
-.box4
+.content-main
 {
+    grid-area: main;
     padding-left: 50px;
 }
 
 .sideTitle
 {
     font-size: 20px;
+}
+
+.logo{
+    grid-area: logo;
+}
+
+.siteSlogan{
+    grid-area: slogan;
+}
+
+.sideLinks{
+    grid-area: aside;
 }
